@@ -1,19 +1,8 @@
-# LoggerX
-
-A **distributed real-time logging system** built for microservice environments — combining performance, flexibility, and developer-friendly control.
-
----
-
-## Overview
-
-LoggerX is a high-performance logging platform that allows developers to **collect, monitor, and query logs in real time**.  
-It is designed for distributed systems and integrates with modern infrastructures using **PHP Swoole**, **Redis**, and **Elasticsearch**.
-
----
+A **distributed real-time logging system** built for microservice environments, combining performance, flexibility, and developer-friendly control.
+It allows developers to **collect, monitor, and query logs in real time**. It is designed for distributed systems and integrates with modern infrastructures using **PHP Swoole**, **Redis**, and **Elasticsearch**.
 
 ## Architecture
 ![System Architecture](./architecture.jpg)
-
 
 ## Components
 
@@ -42,8 +31,6 @@ It is designed for distributed systems and integrates with modern infrastructure
 - Application containers or instances that generate logs
 - Subscribe to Redis channels to receive commands from Logger Server
 
----
-
 ## Features
 
 - **Real-time log streaming** with WebSocket
@@ -52,8 +39,6 @@ It is designed for distributed systems and integrates with modern infrastructure
 - **Scalable architecture** for multi-instance environments
 - **Modern dashboard** built with Vue.js
 - **Built for developers**, with simple integration and flexible APIs
-
----
 
 ## 🛠️ Tech Stack
 
@@ -66,14 +51,10 @@ It is designed for distributed systems and integrates with modern infrastructure
 | Frontend Panel   | Vue.js               |
 | Infrastructure   | Microservices (Pods) |
 
----
-
 ## Installation (coming soon)
 
 Installation and integration guides will be added soon.  
 Stay tuned for setup instructions, Docker images, and API documentation.
-
----
 
 ## 🧾 License
 
